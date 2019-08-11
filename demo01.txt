@@ -1,0 +1,8 @@
+git add test.txt  
+git commit -m "add test file"
+
+git remote rm origin
+git remote add origin git@github.com:826122415/kky.git
+
+git pull --rebase origin master
+git push -u origin master
